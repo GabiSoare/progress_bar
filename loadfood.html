@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <script LANGUAGE="javascript" SRC="js/pgbar.js"></script>
+    <script LANGUAGE="javascript" SRC="js/jquery-1.8.2.min.js"></script>
+	<script LANGUAGE="javascript" SRC="js/jquery.mobile-1.4.0.js"></script>
+<script type="text/javascript" src="js/cordova.js"></script>
+<script type="text/javascript" src="js/loadfood.js"></script>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>BeFit! Tracker</title>
+    </head>
+
+    <script>
+var strField="";
+var strValues="";
+$(document).ready(function () {
+  //We set Progress Bar on ZERO
+  drawpgbar(1, 0, 0);
+  	//This openDatabse on fires populate, error or success
+  	//fires populate if not exist, success if exists
+  	//Thanks to Cordoba.js next openDatabase refers to DB existent and
+  	//this in particular doesnt works on Desktop Browser without cordova support.
+  	var db = openDatabase("test", "1.0", "Test DB", 50000000);
+  	
+  	var totalrows = 0;
+  				//We send parameter 'qty' and test.php responds total Quantity of Rows
+  				//is usefull to calculate Progress Bar advance.
+  				//Below when success fire call getRows(); for Query whole Food Table.
+                $.ajax({
+                    url: 'http://embeddedsoft.ro/test/test.php?parameter=qty',
+                    contentType: "application/json",
+                    dataType: 'json',
+                    success: function (json) {
+  						totalrows = json;
+  						drawpgbar(totalrows, 0, 0);
+        				getRows();
+      				},
+                    complete:function(dataWeGotViaJsonp){
+                        var text = '';
+                        var len = dataWeGotViaJsonp.length;
+           
+                        
+                    },
+                    error:function(){
+              			//console.log("something went wrong");
+            		}
+                });
+
+                /*
+					Please Note  i variable is only counter.
+					totarows variable is the total of records of your cloud DB 'usda'
+					we send parameter=qty for get this value please check test.php
+					Note from - to parameters is functional when only we want download
+					certain Qty of data. For example Debug purposes saves much time instead
+					wait about Ten Minutes Full Download each time.
+                */
+                var i=0;
+                var step=2;
+                var ix=1;
+ 
+                function getRows(){
+                	var json="";
+                	var url= "http://embeddedsoft.ro/test/test.php?parameter=foods&from=" + (1) + "&to=" + (totalrows);
+                	console.log(url);
+	                $.ajax({
+	                	async: false,
+	                    url: url,
+	                    contentType: "application/json",
+	                    dataType: "json",}
+	                    ).done(function(json){
+	                    		
+	                    		$(json).each(function(index,data)
+							    {
+							    	strField=""; var numFields=0;
+							    	strValues="";
+							   //This for-each is needed to extract STRUCTURA OF FOODS TABLE
+							    //And we store each value of Column Row. 
+							    //Look strFields = Name of COLUMN NAME ej: ID,Desc,Water_(g)
+							    //Loog strValues = Value stored ej: 1003 , CHEES,COLBY, 38.2
+							    	 $.each(data, function(key, val) {
+							    	 	strField = strField + "`"+ key +"`" + "," ;
+
+							    	 	numFields = numFields + 1;
+       									
+       									//if (numFields==3)
+       										//return false;
+   									 });
+							    	
+							    //End extraction structure Table
+
+							   	//Here we delete the last colon (comma : ","). Added 
+							   	//For correctly form the SQL instruction
+   									 strField = strField.substring(0,strField.length-1);
+
+   							   //First transaction ensure Table is created
+   							   //populateDB,errorCB,successCB is located on loadfood.js
+   							   //If Table exist is executed without effect
+   									 db.transaction(populateDB, errorCB, successCB);
+   							 	//Second transaction is for inject INSERT for each record row
+   							 	//Here we use the dinamically fields & values that we got
+   							 	// this are strFields and strValues. 
+							         db.transaction(queryIS, errorIS);
+									function queryIS(tx) {
+										var numValues=0;
+										strValues="";
+									$.each(data, function(key, val) {
+							    	 	strValues = strValues + "'" + val + "',";
+
+							    	 	numValues = numValues + 1;
+       									
+       									//if (numValues==3)
+       										//return false;
+   									 });
+									  strValues = strValues.substring(0,strValues.length-1);
+
+										console.log("strValues " + data.Desc);
+										console.log("strValues " + strValues);
+										tx.executeSql("INSERT INTO FOODS (" + strField 
+														+ ") VALUES (" + strValues + ")");
+										//Each time we store a Record and we add a step on
+										//the progressBar.
+									    
+									    drawpgbar(totalrows, ix+1,i);
+									    //This is for show Record Name below progressbar
+									    $("#inFoodDesc").html (data.Desc);
+	        				  			
+									    //Is not possible wait for finish and continue with
+										//with main.html. Javascript will try to go on once //trying to let on background the Record load
+
+										//This is not possible to US, we need fire
+										//only if totalrows is reached. 
+
+	        				  			if(ix+1==totalrows)
+	        				  				 window.location.href = "main.html";
+	        				  			ix++;
+									}
+									function errorIS(err) {
+   										console.log("Error processing SQL: " + err.code);
+									}		
+							    });
+	                    }).fail(function(){
+	                    	console.log("Failed Failed Failed");
+	                    });
+	                   
+        		}
+});
+</script>
+    <body>
+
+	<div style="width:200px; padding:50px;">
+		<div id="szlider">
+			<div id="szliderbar">
+			</div>
+			<div id="szazalek">
+			</div>
+		</div>
+		<div id="inFoodDesc">
+			blah
+		</div>
+	</div>
+
+
+
+
+    </body>
+
+</html>

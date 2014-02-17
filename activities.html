@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>BeFit! Tracker</title>
+    </head>
+    <body>
+		<table id="activity-table" style="text-align: left;font-size: medium">
+			<tr><td onclick="addOption()">Add Activity</td></tr>
+		</table>
+		<div id="add-new" style="display: none">
+			Write below your Activity Name : </br> 			
+			<input id="activityName" type="text" value="" /></br>
+			<span id="yes" onclick="addActivity()">YES</span> <span id="no" onclick="dontSaveActivity()">NO</span>
+		</div>
+    </body>
+    <script type="text/javascript" src="phonegap.js"></script>
+    <script src="js/activities.js"></script>
+    <script>loadActivities();</script>
+</html>
