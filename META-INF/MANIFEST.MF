@@ -1,0 +1,270 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: AfPh3OJoypH966MludSW6f1RHg4=
+
+Name: assets/www/res/screen/bada-wac/screen-type3.png
+SHA1-Digest: x9wjYkTBRYpX+XOwCMqMufZUL90=
+
+Name: res/xml/config.xml
+SHA1-Digest: K3M1JoWDf3bGWQhp/bu7uL53sjg=
+
+Name: assets/www/js/jqueryui/jquery-ui.min.css
+SHA1-Digest: qgarNqRdNpG+TvUtFCJFPC9ghFw=
+
+Name: assets/www/res/icon/ios/icon-57-2x.png
+SHA1-Digest: lFWUc5MbBQ4TkR/QsH6UQqb3FtM=
+
+Name: assets/www/js/jquery.mobile-1.2.0.js
+SHA1-Digest: fuiKz5N35BfyFbwSYgufAdV8umc=
+
+Name: assets/www/js/jquery.mobile-1.4.0.js
+SHA1-Digest: qKm1EfgPyhdtr8r03IuqIwnhpSk=
+
+Name: assets/www/activities.js
+SHA1-Digest: JKY3oagHz9C+Wcx2IJR9Az05V9w=
+
+Name: assets/www/activities.html
+SHA1-Digest: 7x5rhPvtlhmp97yGSiwuy8sFHpg=
+
+Name: assets/www/css/style.css
+SHA1-Digest: I5G36wTeBmbYX58azlGFzwRddfA=
+
+Name: assets/www/js/cordova.js
+SHA1-Digest: A2UtvCF9PGhV8bloQZ2RpQ7DUto=
+
+Name: assets/www/js/loadfood.js
+SHA1-Digest: JAEpj41zpCMTO2QidMDfo1HttGQ=
+
+Name: assets/www/res/icon/windows-phone/icon-48.png
+SHA1-Digest: /1c1WqwknAo3ZhjYRyQ2LyB+aeE=
+
+Name: assets/www/res/screen/ios/screen-ipad-portrait-2x.png
+SHA1-Digest: 1FhnAAV6D+RAw6FOngkfDX0z64w=
+
+Name: assets/www/res/icon/android/icon-96-xhdpi.png
+SHA1-Digest: 5+SwDCnYbvoibwVLzytinuYHHKY=
+
+Name: assets/www/res/screen/android/screen-xhdpi-landscape.png
+SHA1-Digest: pjMrYfqeGoOudkSXuxlbRRF3grg=
+
+Name: assets/www/js/jquery.mobile-1.3.2.js
+SHA1-Digest: 0F/5ff61IL0RFS17e/5Avwkf5Yo=
+
+Name: assets/www/res/icon/windows-phone/icon-62-tile.png
+SHA1-Digest: YYV5zgPPu/VLN7K6dNGxl9zLfnw=
+
+Name: assets/www/res/icon/tizen/icon-128.png
+SHA1-Digest: g+kxwSaoAuTn5iJW6S3bhzKFfKk=
+
+Name: assets/www/res/screen/android/screen-ldpi-portrait.png
+SHA1-Digest: 2Ftqo9r5zKkcI3qnPxTJkjFwSf8=
+
+Name: res/drawable-xxhdpi/ic_launcher.png
+SHA1-Digest: GVIfdEOBv4gEny2T1jDhGGsZOBo=
+
+Name: assets/www/res/screen/webos/screen-64.png
+SHA1-Digest: faR2/yKs/THFQcW7FxIlhFpUlq8=
+
+Name: assets/www/res/screen/bada-wac/screen-type4.png
+SHA1-Digest: gJA3nPLfWx9XWbz5wiBOUJKL76g=
+
+Name: assets/www/js/index.js
+SHA1-Digest: wx8EfieiQHcWE2u/pmLNAbddSIw=
+
+Name: assets/www/res/screen/android/screen-xhdpi-portrait.png
+SHA1-Digest: KnhkmAzL3Ko825McNLFJn7NGIQo=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/MIT.LICENSE
+SHA1-Digest: RytFXTsJ+13ad9mFrElp/Si5Hws=
+
+Name: assets/www/res/icon/bada-wac/icon-48-type5.png
+SHA1-Digest: e2wcE4lw5s44x6In0lZOPgke8Zs=
+
+Name: assets/www/res/icon/blackberry/icon-80.png
+SHA1-Digest: Av8v7iYWbDF1fHgk5+/A+UnFHDk=
+
+Name: assets/www/res/icon/ios/icon-72-2x.png
+SHA1-Digest: 1eDEUv0+e6DE2FsRHD4Kf2ZmxaQ=
+
+Name: assets/www/res/screen/blackberry/screen-225.png
+SHA1-Digest: 3DDY3f9kpDAmHlfybPbVzMYBWNE=
+
+Name: assets/www/js/jquery.mobile-1.2.0.min.css
+SHA1-Digest: WVw5NaGYrHnK9LTdwzEAm+3snsM=
+
+Name: assets/www/index.html
+SHA1-Digest: 9N+2MDLt5uhDUg6Lm9fpoF7Y8Ns=
+
+Name: assets/www/res/screen/android/screen-ldpi-landscape.png
+SHA1-Digest: d+zBb5kM34RpsZlTO+/dXUBRlPU=
+
+Name: assets/www/spec/helper.js
+SHA1-Digest: y5Tfxnsc7GA289HJFXCZED1R5eE=
+
+Name: assets/www/res/screen/ios/screen-ipad-landscape.png
+SHA1-Digest: u41qOSQvZ6RQwytqw2i91Hs5os8=
+
+Name: assets/www/res/icon/android/icon-36-ldpi.png
+SHA1-Digest: gysoHN7H7pu6XS5AjgHcLFrTgtI=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: Nq8q3HeTluE5JNCBpVvNy3BXtJI=
+
+Name: assets/www/res/screen/ios/screen-ipad-landscape-2x.png
+SHA1-Digest: fShharMxYr8ZL2If9gF++a8xEtQ=
+
+Name: assets/www/js/plugin/bluetoothSerial.js
+SHA1-Digest: Odf/QdS6b6rg3h+gy8e+A3Kyl3Q=
+
+Name: assets/www/css/index.css
+SHA1-Digest: j7lf84rElIKyeAMxBpFJradqBdQ=
+
+Name: resources.arsc
+SHA1-Digest: lsF2+xXOniP3o/NwcKkrQKjbRtg=
+
+Name: assets/www/js/jquery.mobile-1.3.2.min.css
+SHA1-Digest: AEx4+UesCwqs758KAqGqeo+ihpQ=
+
+Name: assets/www/progress.html
+SHA1-Digest: rJqwNKnLpIcNiEWYwOVWPDpHvVo=
+
+Name: assets/www/res/screen/ios/screen-iphone-landscape.png
+SHA1-Digest: lRG6WUQDbkpZP7TgcGiJyz+ltHg=
+
+Name: assets/www/config.xml
+SHA1-Digest: ZPHEKiEH/SzJnD2iToa8Ev9Xf9I=
+
+Name: assets/www/res/screen/bada-wac/screen-type5.png
+SHA1-Digest: yFv0ZClnR83P/QXpM4jr+JUEUmk=
+
+Name: assets/www/js/plugin/Calendar.js
+SHA1-Digest: B3CrWCGp70UOe70ViRprJ87rRds=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 5TjDFHlI7fc52nIdFL52tRd3byI=
+
+Name: assets/www/res/icon/bada-wac/icon-50-type3.png
+SHA1-Digest: 8SsoUTsqsCZZvaOTVE+gIPVa2nA=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: aHSoKB2Y4F7+KipN+5gEjHUFqPk=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.js
+SHA1-Digest: UbuCXRtZstykBBa58lepG51icZw=
+
+Name: assets/www/res/icon/bada/icon-128.png
+SHA1-Digest: hXaw9m2A4BRGAzc1lsntJZ0Kosc=
+
+Name: assets/www/res/screen/android/screen-mdpi-landscape.png
+SHA1-Digest: Ck9wmdrtfbDtt730I7YVKzMgAYk=
+
+Name: assets/www/img/img_profile.png
+SHA1-Digest: o6xUWp8EGxRCVNuj8wOEHWxFA/k=
+
+Name: assets/www/res/screen/ios/screen-ipad-portrait.png
+SHA1-Digest: Fa2knHeOC1+63vxE8lJtar/rdg0=
+
+Name: assets/www/js/pgbar.js
+SHA1-Digest: 66EB7YjULR1mNtT/hrhJoL9QeH8=
+
+Name: assets/www/js/jqueryui/jquery-ui.min.js
+SHA1-Digest: qvEy2ni/X1MIwhea2prq6BgB3DY=
+
+Name: assets/www/res/icon/ios/icon-72.png
+SHA1-Digest: DwK1U1oefENXF+bsLor/fdos5i8=
+
+Name: assets/www/res/screen/ios/screen-iphone-portrait-2x.png
+SHA1-Digest: hpSSS56KkybsJuk3J8T7ENmladw=
+
+Name: assets/www/res/screen/tizen/README.md
+SHA1-Digest: j9FACGOVHWUItR7LyCC+/fUkP2Y=
+
+Name: assets/www/loadfood.html
+SHA1-Digest: W5z1RZ/LO3PbAw10djwRHm+nkJA=
+
+Name: assets/www/res/screen/ios/screen-iphone-portrait.png
+SHA1-Digest: x9wjYkTBRYpX+XOwCMqMufZUL90=
+
+Name: assets/www/js/jqueryui/jquery.ui.touch-punch.min.js
+SHA1-Digest: DSFsgSxxBZ0VJtTFWCd+UeRJXYo=
+
+Name: assets/www/res/screen/ios/screen-iphone-landscape-2x.png
+SHA1-Digest: 5ENi5rM4IAUJUmK6at6/AHnaQ7U=
+
+Name: assets/www/res/screen/android/screen-mdpi-portrait.png
+SHA1-Digest: dyiI/oAd21ylRt1sesOWEZYBAvo=
+
+Name: classes.dex
+SHA1-Digest: VD5tINszu1ywZaqnXnjEoCC43lM=
+
+Name: assets/www/main.html
+SHA1-Digest: H8M56uBh9pZPaMP349+AV4kQalo=
+
+Name: assets/www/spec/index.js
+SHA1-Digest: J4GKWWL87ZmFEo/y6AwV16rZhQY=
+
+Name: assets/www/res/icon/android/icon-48-mdpi.png
+SHA1-Digest: NEVdWqReVKTycZkNKHp0Ws6sOo0=
+
+Name: assets/www/res/screen/android/screen-hdpi-portrait.png
+SHA1-Digest: 1NDe1bi812bp4MVRS7LQ4v5xu+A=
+
+Name: assets/www/img/bg.png
+SHA1-Digest: aLu8/B5HkW5n6wCJgArAFecGDf0=
+
+Name: res/menu/main.xml
+SHA1-Digest: 4kk/ftkp/cqOvezdYLGyEMFSCz4=
+
+Name: assets/www/js/jquery-1.8.2.min.js
+SHA1-Digest: vuTZzUGua/T3Kx9Ivgk12AfsJrA=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: RRxOSvpmhVfCwiprVV/wZlaqQpw=
+
+Name: assets/www/res/screen/ios/screen-iphone-portrait-568h-2x.png
+SHA1-Digest: zW4V29Uut2h9pJVFIZvbnXWAbuc=
+
+Name: assets/www/main.js
+SHA1-Digest: Y6+qmdpq8sx2RyqSYoIEJjY5dqU=
+
+Name: assets/www/icon.png
+SHA1-Digest: g+kxwSaoAuTn5iJW6S3bhzKFfKk=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.css
+SHA1-Digest: DjIgU9kCSPAtc8h6KJIq1kR9aaU=
+
+Name: assets/www/res/icon/android/icon-72-hdpi.png
+SHA1-Digest: 8w6WiTRFbzJ2vWJ7uXj/Wzkg+kM=
+
+Name: assets/www/res/screen/bada/screen-portrait.png
+SHA1-Digest: gJA3nPLfWx9XWbz5wiBOUJKL76g=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: F9Ssfs+kPOP+SsIjLnDaP93NJW8=
+
+Name: assets/www/img/bg_active.jpg
+SHA1-Digest: vRQfiNi/ef20c/FIdG7flnLZX+o=
+
+Name: assets/www/res/icon/windows-phone/icon-173-tile.png
+SHA1-Digest: DQ9cvkXs15yc44V0/dW0uGfiJLs=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js
+SHA1-Digest: HQvXPy78BuOZPFGkxsNvRiBM4YA=
+
+Name: assets/www/res/icon/webos/icon-64.png
+SHA1-Digest: 0qKjqDMIZOdCqB1Hmh8VP4kDbJw=
+
+Name: assets/www/res/screen/windows-phone/screen-portrait.jpg
+SHA1-Digest: 0IWw5eo1icr+orCRJfyZ1djRvzs=
+
+Name: assets/www/res/icon/ios/icon-57.png
+SHA1-Digest: L7Yk7usECCqnvg21NAyMrREtWno=
+
+Name: assets/www/res/screen/android/screen-hdpi-landscape.png
+SHA1-Digest: 2FMXKTuYdRdszhX7k98st8kIZmE=
+
+Name: assets/www/res/icon/bada-wac/icon-80-type4.png
+SHA1-Digest: RHY1TsvT2HavEOzpHbGuD8iHCsc=
+
