@@ -19,7 +19,8 @@
  			console.log(" ID = " + results.rows.item(i) );
  			var id = results.rows.item(i)['ID'];
  			var Desc = results.rows.item(i)['Desc'];
- 			$("#listTest").append("<p>" + results.rows.item(i)['ID'] + " - " + Desc + "</p>");
+ 			var c = results.rows.item(i)['Cholestrl_(mg)'];
+ 			$("#listTest").append("<p>id -" + results.rows.item(i)['Water_(g)'] + " - " + Desc + " - " + c</p>");
  		}	    			
  	}
  }
