@@ -20,7 +20,7 @@
  			var id = results.rows.item(i)['ID'];
  			var Desc = results.rows.item(i)['Desc'];
  			var c = results.rows.item(i)['Cholestrl_(mg)'];
- 			$("#listTest").append("<p>id -" + results.rows.item(i)['Water_(g)'] + " - " + Desc + " - " + c</p>");
+ 			$("#listTest").append("<p>id -" + results.rows.item(i)['Water_(g)'] + " - " + Desc + " - " + c+"</p>");
  		}	    			
  	}
  }
